@@ -25,4 +25,18 @@ defmodule Crayon.MixProject do
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
   end
+
+  defp description do
+    """
+    Terminal string styling done right 🌈🖍
+    """
+  end
+
+  defp package do
+    [
+      maintainers: ["Gustavo Sequeira"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/tavofigse/crayon"}
+    ]
+  end
 end
