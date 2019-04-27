@@ -34,6 +34,7 @@ defmodule Crayon.MixProject do
 
   defp package do
     [
+      files: ["lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Gustavo Sequeira"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/tavofigse/crayon"}
